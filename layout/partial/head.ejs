@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+  <%
+  var title = page.title;
+
+  if (is_archive()){
+    title = __('歸檔');
+  }
+  %>
+<title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+<link rel="icon" href="/image/favicon.ico">
+<%- css('css/main') %>
+  
