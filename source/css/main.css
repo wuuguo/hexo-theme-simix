@@ -127,8 +127,21 @@ table {
 	border-spacing: 0;
 	border-collapse: collapse;
 }
-
-
+td pre {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	border: none;
+	color: #666;
+	font-size: 0.9em;
+}
+td.gutter {
+	padding: 3px;
+	width: 6px;
+}
+figure table {
+	width: 100%;
+}
 table th,
 table td {
 	padding: 6px 13px;
@@ -145,10 +158,14 @@ table tr {
 table tr:nth-child(2n) {
 	background-color: #f8f8f8;
 }
-
+blockquote {
+    padding-left: 10px;
+    border: #080 thin dotted;
+    border-left: #080 5px solid;
+}
 /* index page setting */
 
-section .subtitle {
+p.subtitle {
 	text-align: center;
 	border-bottom: #aaa thin dashed;
 	margin-bottom: 0;
