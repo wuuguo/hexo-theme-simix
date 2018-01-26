@@ -4,4 +4,5 @@
 	<time><%- page.date.format("YYYY-MM-DD") %></time> &copy; <%= config.author %></p>
 	<div class="summary"><%- page.excerpt %></div>
 	<%- page.more %>
+    <%- partial('partial/disqus') %>
 </article>

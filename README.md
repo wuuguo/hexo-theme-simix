@@ -22,6 +22,6 @@ git pull
 ## ToDo
 
 - [ ] Immersive multi-language
-- [ ] Comment system
-- [ ] Google analytics
+- [ x ] Comment system
+- [ x ] Google analytics
 - [ ] Open graph
