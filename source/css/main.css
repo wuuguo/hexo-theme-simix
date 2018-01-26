@@ -1,3 +1,28 @@
+/* Change */
+
+footer a {
+    color: #bbbbbb;
+    font-weight: 500 !important;
+}
+footer {
+	font-size: 85%;
+	color: #bbbbbb;
+	margin: 40px 0 10px 0;
+}
+footer p {
+	border-top: #ccc thin solid;
+	margin: 0 auto;
+	padding-top: 5px;
+	text-align:center;
+	width: 80%;
+	max-width: 900px;
+}
+blockquote {
+    padding-left: 10px;
+    /* border: #6699CC thin dotted; */
+    border-left: #6699CC 5px solid;
+    font-size: 90%;
+}
 /* global setting */
 
 @media print {
@@ -10,8 +35,8 @@
 	padding: 0;
 }
 body {
-	font: lighter 16px/1.8 "Microsoft Yahei", sans-serif;
-	color: #202020;
+	font: 300 18px/1.8 /* "Microsoft Yahei",  */sans-serif;
+	color: #78808d;
 	background-color:#fffffc;
 }
 header {
@@ -50,42 +75,32 @@ header a {
 .content p:last-child {
 	margin-bottom: 0;
 }
-footer {
-	font-size: 90%;
-	color: #bbbbbb;
-	margin: 40px 0 10px 0;
-}
-footer p {
-	border-top: #ccc thin solid;
-	margin: 0 auto;
-	padding-top: 5px;
-	text-align:center;
-	width: 80%;
-	max-width: 900px;
-}
+
 h1, h2, h3, h4, h5 {
-	color: #000;
+	color: gray;
 }
 h1 {
-	font-size: 200%;
+	font-size: 240%;
 	font-family: serif;
 	font-weight: 800;
 	text-align: center;
 }
 h2 {
-	font-size: 150%;
-	font-weight: 500;
+	font-size: 175%;
+	font-weight: bolder;
 	margin: 20px 0 10px 0;
+    border-bottom: 1px solid #dcddde;
+    
 }
 h3 {
-	font-size: 125%;
-	font-weight: 500;
+	font-size: 145%;
+	font-weight: bolder;
 	margin-top: 10px;
-	color: lightskyblue;
+
 }
 h4 {
-	font-size: 105%;
-	font-weight: 500;
+	font-size: 115%;
+	font-weight: normal;
 	margin-top: 10px;
 }
 a {
@@ -164,11 +179,7 @@ table tr {
 table tr:nth-child(2n) {
 	background-color: #f8f8f8;
 }
-blockquote {
-    padding-left: 10px;
-    border: #080 thin dotted;
-    border-left: #080 5px solid;
-}
+
 /* index page setting */
 
 p.subtitle {
@@ -177,10 +188,11 @@ p.subtitle {
 	margin-bottom: 0;
 }
 .title a {	
-	font-size: 120%;
+	font-size: 150%;
 	font-family: serif;
 	margin-top: 10px;
 	display: block;
+    font-weight: bold;
 }
 .title span {
 	font-size: 80%;
